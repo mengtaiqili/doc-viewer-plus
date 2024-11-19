@@ -1,0 +1,51 @@
+{
+    "name": "doc-viewer-plus",
+    "version": "1.0.0",
+    "description": "A document viewer component for React that supports multiple file types",
+    "main": "dist/index.js",
+    "module": "dist/index.esm.js",
+    "types": "dist/index.d.ts",
+    "files": [
+      "dist",
+      "README.md"
+    ],
+    "scripts": {
+      "build": "rollup -c",
+      "prepare": "npm run build"
+    },
+    "peerDependencies": {
+      "react": ">=16.8.0",
+      "react-dom": ">=16.8.0",
+      "antd": ">=4.0.0",
+      "@ant-design/icons": ">=4.0.0"
+    },
+    "devDependencies": {
+      "@types/react": "^18.0.0",
+      "@rollup/plugin-commonjs": "^22.0.0",
+      "@rollup/plugin-node-resolve": "^13.3.0",
+      "@rollup/plugin-typescript": "^8.3.2",
+      "rollup": "^2.75.6",
+      "rollup-plugin-peer-deps-external": "^2.2.4",
+      "typescript": "^4.7.3",
+      "antd": "^4.0.0",
+      "@ant-design/icons": "^4.0.0"
+    },
+    "keywords": [
+      "react",
+      "document-viewer",
+      "pdf-viewer",
+      "office-viewer",
+      "image-viewer",
+      "ofd-viewer"
+    ],
+    "author": "Your Name",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mengtaiqili/doc-viewer-plus.git"
+    },
+    "bugs": {
+      "url": "https://github.com/mengtaiqili/doc-viewer-plus/issues"
+    },
+    "homepage": "https://github.com/mengtaiqili/doc-viewer-plus#readme"
+  }
